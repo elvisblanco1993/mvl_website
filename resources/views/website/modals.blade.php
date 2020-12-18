@@ -14,7 +14,7 @@
                     {{ __('Are you a US Citizen or Lawful Permanent Resident and want to petition for your spouse, children or your parents? MVL Law Firm can assist you in the petition process whether your family member is in the Unites States or abroad.') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                     {{ __('Have you been a victim of domestic violence, including but not limited to physical abuse, emotional abuse, financial abuse, etc. by your US Citizen or Lawful Permanent Resident Spouse? The Violence Against Women Act offers immigration protections. Call us so that we can help!') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                     {{ __('Did you enter the US without inspection and/or accrue unlawful presence? You may not be aware that you are eligible to apply for a waiver. MVL Law Firm can assist you contact our office for a consultation today.') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                     {{ __('Have you been the victim of a violent crime? Were you helpful in the investigation by providing a statement to law enforcement or the Court? Did you suffer as a result of that crime? Contact our office today for a consultation.') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@
                     {{ __('Were you a child when you entered the US? You may be eligible to stay in the US under the Deferred Action for Childhood Arrivals Program (DACA). Do you have DACA and need to renew your status? We can help. Ask for a consultation today.') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
                     {{ __('Are you ready to become a US Citizen?  Do you have questions about becoming a US Citizen?  Contact us our office for a consultation.') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
                     {{ __('') }}
                 </p>
                 <div class="text-center">
-                    <a class="btn btn-lg btn-mvl" type="button" href="http://localhost:8000/contact">REQUEST A CONSULTATION</a>
+                    <a class="btn btn-lg btn-mvl" type="button" href="{{ route('contact') }}">REQUEST A CONSULTATION</a>
                 </div>
             </div>
         </div>
