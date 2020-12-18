@@ -57,14 +57,14 @@
                 </div>
 
                 <div class="col item social mt-5">
-                    <a href="#">
+                    {{-- <a href="#">
                         <i class="fa fa-youtube"></i>
-                    </a>
-                    <a href="#">
+                    </a> --}}
+                    <a href="https://www.facebook.com/MerceyLaw" target="_blank">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="#">
-                        <i class="fa fa-instagram"></i>
+                    <a href="https://twitter.com/Merceylaw" target="_blank">
+                        <i class="fa fa-twitter"></i>
                     </a>
                 </div>
             </div>
