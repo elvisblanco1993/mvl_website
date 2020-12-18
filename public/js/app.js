@@ -515,8 +515,8 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/elvis/Projects/super-duper-engine/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/elvis/Projects/super-duper-engine/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/elvis/Projects/WORK_REGISTRAC_LLC/MVL-Law-Firm-LLC/website/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/elvis/Projects/WORK_REGISTRAC_LLC/MVL-Law-Firm-LLC/website/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

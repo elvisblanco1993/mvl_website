@@ -52,6 +52,6 @@ class ContactController extends Controller
         }
 
         return redirect('/contact')
-            ->with('message', 'We have received your request. A member from our team will reach out to you soon.');
+            ->with('message', 'We have received your request. A member from our team will contact you soon.');
     }
 }

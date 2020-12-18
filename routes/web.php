@@ -16,7 +16,19 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('website.home');
-});
+})->name('home');
+
+Route::get('about', function () {
+    return view('website.about');
+})->name('about');
+
+Route::get('services', function () {
+    return view('website.services');
+})->name('services');
+
+Route::get('resources', function () {
+    return view('website.resources');
+})->name('resources');
 
 Route::get('contact', [\App\Http\Controllers\ContactController::class, 'index'])->name('contact');
 Route::post('contact', [\App\Http\Controllers\ContactController::class, 'save'])->name('contact-submit');
