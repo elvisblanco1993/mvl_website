@@ -1,5 +1,6 @@
 <?php
 
+use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
