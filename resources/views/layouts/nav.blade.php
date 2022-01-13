@@ -9,7 +9,7 @@
         <ul class="nav navbar-nav justify-content-md-end w-100">
             <li class="nav-item">
                 <span class="d-none d-md-block" style="color: rgba(28,36,60,0.56);">{{ __('Call for a Consultation') }}</span>
-                <a class="nav-link p-0" href="#" style="font-family: Montserrat, sans-serif;font-weight: 900;font-size: 1.4rem;color: #eaac23;">+1 (786) 410-5853</a>
+                <a class="nav-link p-0" href="tel:+17864105853" style="font-family: Montserrat, sans-serif;font-weight: 900;font-size: 1.4rem;color: rgb(177,148,83);">+1 (786) 410-5853</a>
             </li>
         </ul>
     </div>
@@ -44,7 +44,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}" style="color: #f2f5f8; @if( request()->routeIs('contact') ) color: #eaac23; border-bottom: 2px solid #eaac23; background-color: #ffd4760c  @endif">{{ __('Contact Us') }}</a>
-                </li>ffd4760c
+                </li>
+                <li class="nav-item d-flex justify-content-center align-items-center">
+                    @foreach (config('app.languages') as $language => $languageName)
+                        <a class="text-white px-2 @if (app()->getLocale() == $language) text-dark bg-white @endif" href="{{ url()->current() }}?change_language={{ $language }}">{{ $language }}</a>
+                    @endforeach
+                </li>
             </ul>
         </div>
     </div>

@@ -55,15 +55,15 @@
             <div class="col-sm-6 col-md-5 col-lg-4 item">
                 <div class="box"><i class="fa fa-balance-scale icon" style="color: rgb(177,148,83);"></i>
                     <h3 class="name">{{ __('Family Immigration')}}</h3>
-                    <p class="description">{{ __('Are you a US Citizen or Lawful Permanent Resident and want to petition for your spouse, children or your parents?')}}</p>
+                    <p class="description">{{ Str::limit(__("Are you a US Citizen or Lawful Permanent Resident and want to petition for your spouse, children or your parents? MVL Law Firm can assist you in the petition process whether your family member is in the Unites States or abroad.")) }}</p>
                     <button class="btn btn-link" data-toggle="modal" data-target="#family_immigration">{{ __('Learn more »')}}</button>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-5 col-lg-4 item">
                 <div class="box"><i class="fa fa-balance-scale icon" style="color: rgb(177,148,83);"></i>
-                    <h3 class="name">VAWA</h3>
-                    <p class="description">{{ __('Have you been a victim of domestic violence, including but not limited to physical abuse, emotional abuse...')}}</p>
+                    <h3 class="name">{{__('VAWA')}}</h3>
+                    <p class="description">{{ Str::limit( __("Have you been a victim of domestic violence, including but not limited to physical abuse, emotional abuse, financial abuse, etc. by your US Citizen or Lawful Permanent Resident Spouse? The Violence Against Women Act offers immigration protections. Call us so that we can help!") ) }}</p>
                     <button class="btn btn-link" data-toggle="modal" data-target="#vawa">{{ __('Learn more »')}}</button>
                 </div>
             </div>
