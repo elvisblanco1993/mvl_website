@@ -35,19 +35,19 @@
                         <i class="fa fa-envelope mr-4"></i>
                         info@merceylaw.com
                     </p>
-                    <p style="font-size: 1.2rem;font-family: Montserrat, sans-serif;">
+                    <!-- <p style="font-size: 1.2rem;font-family: Montserrat, sans-serif;">
                         <i class="fa fa-map mr-4"></i>
                         26031 S Dixie Hwy Naranja, FL 33032
-                    </p>
+                    </p> -->
                 </div>
-                <hr>
+                <!-- <hr>
                 <iframe
                     allowfullscreen=""
                     frameborder="0"
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYM2qsg9prJ8Tu6PDsgF8qfnBw2H4QpnU&amp;q=26031+S+Dixie+Hwy%2C+Naranja%2C+Fl+33032&amp;zoom=12"
                     width="100%"
                     height="200">
-                </iframe>
+                </iframe> -->
             </div>
             <div class="col-md-6" style="color: #2c344c;">
 
